@@ -50,4 +50,51 @@ public class testclass
         Assert.Equal("Heavy Parcel: $50.Total Cost: $50", Program.calculateDimension(length, height, width, weight));
     }
 
+
+    // [Fact]
+    // //tests if the parcel is added to the order
+    // public void EachOrderStartsWithNoItemsTest()
+    // {
+    //     Program order = new Program();
+    //     Assert.Empty(order.cost);
+    // }
+
+    // [Fact]
+    // //tests if the parcel is added to the order
+    // public void addParcelTest()
+    // {
+    //     Program order = new Program();
+    //     order.addParcel(("Heavy Parcel: $50.Total Cost: $50"));
+    //     Assert.Equal(50, order.cost);
+    // }
+
+    // [Fact]
+    // //tests the overall status of the order
+    // public void getOrderSummaryTest()
+    // {
+    //     Program order = new Program();
+    //     order.addParcel(("Heavy Parcel: $50.Total Cost: $50"));
+    //     order.addParcel(("Extra Large Parcel: $25.Total Cost: $25"));
+    //     Assert.Equal(75, order.cost);
+    // }
+    // [Fact]
+    // //tests the overall status of the order
+    // public void calculatesOverweightPerParcelTest()
+    // {
+    //     Order order = new Order();
+    //     order.addParcel(("Heavy Parcel: $50.Total Cost: $50"));
+    //     order.addParcel(("Extra Large Parcel: $25.Total Cost: $25"));
+    //     Assert.Equal("Total Cost: $75", order);
+    // }
+
+    // [Fact]
+    // //tests if the overall order cost doubles when speedy delivery is true(selected by user)
+    // public void speedyDeliveryTest()
+    // {
+    //     Program order = new Program();
+    //     order.addParcel(("Heavy Parcel: $50.Total Cost: $50"));
+    //     order.SpeedyDelivery();
+    //     Assert.Equal(100, order.cost);
+    // }
+
 }

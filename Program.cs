@@ -2,7 +2,7 @@
 {
     static void Main(string[] args)
     {
-     
+
         Console.WriteLine("Enter parcel height in cm:");
         double height = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Enter parcel length in cm:");
@@ -21,23 +21,41 @@
         double dimension = length * height * width;
         if (weight > 50)
         {
-            return "Heavy Parcel: $50.Total Cost: $50";
+            int cost = 50;
+            string type = "Heavy ";
+            return
+            $"{type} Parcel: ${cost}.Total Cost: ${cost}";
         }
         else if (dimension < 10)
         {
-            return "Small Parcel: $3.Total Cost: $3";
+            int cost = 3;
+            string type = "Small ";
+            return
+            $"{type}Parcel: ${cost}.Total Cost: ${cost}";
+
         }
         else if (dimension < 50)
         {
-            return "Medium Parcel: $8.Total Cost: $8";
+            int cost = 8;
+            string type = "Medium";
+            return
+            $"{type} Parcel: ${cost}.Total Cost: ${cost}";
+
         }
         else if (dimension < 100)
         {
-            return "Large Parcel: $15.Total Cost: $15";
+            int cost = 15;
+            string type = "Large";
+            return
+            $"{type} Parcel: ${cost}.Total Cost: ${cost}";
+
         }
         else if (dimension >= 100)
         {
-            return "Extra Large Parcel: $25.Total Cost: $25";
+            int cost = 25;
+            string type = "Extra Large";
+            return
+            $"{type} Parcel: ${cost}.Total Cost: ${cost}";
         }
 
         else
@@ -46,4 +64,20 @@
 
         }
     }
+    public class Order
+    {
+        public string type;
+        public int cost;
+        public Order(string type, int cost)
+        {
+            this.type = type;
+            this.cost = cost;
+        }
+
+    }
+
+    // public static string addParcel(string name, int price)
+    // {
+
+    // }
 }
