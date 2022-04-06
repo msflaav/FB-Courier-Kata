@@ -41,4 +41,13 @@ public class testclass
         Assert.Equal("Extra Large Parcel: $25.Total Cost: $25", Program.calculateDimension(length, height, width, weight));
     }
 
+    public void calculateDimensionTestHeavyParcel()
+    {
+        double length = 19;
+        double height = 12;
+        double width = 10;
+        double weight = 55;
+        Assert.Equal("Heavy Parcel: $50.Total Cost: $50", Program.calculateDimension(length, height, width, weight));
+    }
+
 }

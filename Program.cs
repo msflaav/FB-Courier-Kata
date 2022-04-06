@@ -2,19 +2,28 @@
 {
     static void Main(string[] args)
     {
-        double length = 5;
-        double height = 8;
-        double width = 7;
-        double weight = 10;
-
-        Console.WriteLine(calculateDimension(length, height, width, weight));
+     
+        Console.WriteLine("Enter parcel height in cm:");
+        double height = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Enter parcel length in cm:");
+        double length = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Enter parcel width in cm:");
+        double width = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Enter parcel weight in cm:");
+        double weight = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("You have a " + calculateDimension(length, height, width, weight));
+        Console.WriteLine("Do you want to add parcel to order? Yes/No");
+        string addParcel = Console.ReadLine();
     }
 
     public static string calculateDimension(double length, double height, double width, double weight)
     {
         double dimension = length * height * width;
-
-        if (dimension < 10)
+        if (weight > 50)
+        {
+            return "Heavy Parcel: $50.Total Cost: $50";
+        }
+        else if (dimension < 10)
         {
             return "Small Parcel: $3.Total Cost: $3";
         }
