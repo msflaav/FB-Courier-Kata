@@ -2,7 +2,9 @@
 A simple program to solve the courier kata.
 ## Table of contents
 * [General info](#general-info)
+* [Tasks](#tasks)
 * [Setup](#setup)
+* [Further Implementations](further-implementations)
 
 ## General info
 A simple program to solve the courier kata using C#.
@@ -57,3 +59,12 @@ To run the tests:
 ```
 $ dotnet test
 ```
+##  Further Implementations
+
+As I ran out of time my plan for further implementation is
+
+1. Fix the syntax for the commented tests.
+2. Add code for the failing tests.
+3. Add function that calculates the extra weight for the parcel - to be used within the the calculateDimension functions where there would be a separate output for the extra weight and cost of the parcel will be updated. 
+4. Add function that adds discount based on how many parcels are in the order object: I would be looking at an if statement that would evaluate the count of different parcels and return each special discount. 
+5. I would improve on the user interface in the terminal: better phrasing and give user options to his/her answer (eg: yes/no, add, get total) and use case to account for each choice.
