@@ -1,0 +1,5 @@
+/Users/f/Documents/GitHub/FB-Courier-Kata/bin/Release/net6.0/publish/FB-Courier-Kata
+/Users/f/Documents/GitHub/FB-Courier-Kata/bin/Release/net6.0/publish/FB-Courier-Kata.dll
+/Users/f/Documents/GitHub/FB-Courier-Kata/bin/Release/net6.0/publish/FB-Courier-Kata.deps.json
+/Users/f/Documents/GitHub/FB-Courier-Kata/bin/Release/net6.0/publish/FB-Courier-Kata.runtimeconfig.json
+/Users/f/Documents/GitHub/FB-Courier-Kata/bin/Release/net6.0/publish/FB-Courier-Kata.pdb

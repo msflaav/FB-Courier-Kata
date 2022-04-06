@@ -1,0 +1,15 @@
+/Users/f/Documents/GitHub/FB-Courier-Kata/bin/Debug/net6.0/FB-Courier-Kata
+/Users/f/Documents/GitHub/FB-Courier-Kata/bin/Debug/net6.0/FB-Courier-Kata.deps.json
+/Users/f/Documents/GitHub/FB-Courier-Kata/bin/Debug/net6.0/FB-Courier-Kata.runtimeconfig.json
+/Users/f/Documents/GitHub/FB-Courier-Kata/bin/Debug/net6.0/FB-Courier-Kata.dll
+/Users/f/Documents/GitHub/FB-Courier-Kata/bin/Debug/net6.0/FB-Courier-Kata.pdb
+/Users/f/Documents/GitHub/FB-Courier-Kata/obj/Debug/net6.0/FB-Courier-Kata.csproj.AssemblyReference.cache
+/Users/f/Documents/GitHub/FB-Courier-Kata/obj/Debug/net6.0/FB-Courier-Kata.GeneratedMSBuildEditorConfig.editorconfig
+/Users/f/Documents/GitHub/FB-Courier-Kata/obj/Debug/net6.0/FB-Courier-Kata.AssemblyInfoInputs.cache
+/Users/f/Documents/GitHub/FB-Courier-Kata/obj/Debug/net6.0/FB-Courier-Kata.AssemblyInfo.cs
+/Users/f/Documents/GitHub/FB-Courier-Kata/obj/Debug/net6.0/FB-Courier-Kata.csproj.CoreCompileInputs.cache
+/Users/f/Documents/GitHub/FB-Courier-Kata/obj/Debug/net6.0/FB-Courier-Kata.dll
+/Users/f/Documents/GitHub/FB-Courier-Kata/obj/Debug/net6.0/refint/FB-Courier-Kata.dll
+/Users/f/Documents/GitHub/FB-Courier-Kata/obj/Debug/net6.0/FB-Courier-Kata.pdb
+/Users/f/Documents/GitHub/FB-Courier-Kata/obj/Debug/net6.0/FB-Courier-Kata.genruntimeconfig.cache
+/Users/f/Documents/GitHub/FB-Courier-Kata/obj/Debug/net6.0/ref/FB-Courier-Kata.dll
